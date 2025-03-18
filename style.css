@@ -19,11 +19,11 @@
 
 /* 优化开始按钮样式 */
 .loader #play {
-    width: 250px;
-    height: 80px;
+    width: 240px;
+    height: 67px;
     background-image: linear-gradient(160deg, #FFB6C1, #FF69B4, #FF1493);
     color: white;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: bold;
     border: none;
     border-radius: 40px;
