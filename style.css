@@ -10,7 +10,7 @@
     height: 100%;
     z-index: 999;
     /* background: url("https://images.unsplash.com/photo-1513546493312-0066d7de3fd2?q=80&w=2770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") center/cover no-repeat #000; 使背景图片覆盖整个容器 */
-    background: url("./img/img_start.avif") center/cover no-repeat #000; /* 使背景图片覆盖整个容器 */
+     background: url("./img/img_start.avif") center/cover no-repeat #000; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -147,32 +147,18 @@ img {
     padding-top: 250px;
 }
 /* .loader button {
-    width: 50%;
-    height: 100px;
-    position: fixed;
-    left: 50%;
-    top: 45%;
-    transform: translateY(-50%);
-    transform: translateX(-50%);
-    background: center no-repeat #fff;
-    z-index: 9999999999999999999999;
-    font-size: 50px;
-    outline: none;
-    box-sizing: border-box;
+    width: 250px;
+    height: 80px;
+    background-image: linear-gradient(160deg, #FFB6C1, #FF69B4, #FF1493);
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
     border: none;
-    border-radius: .3em;
-    text-transform: uppercase;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, .16), 0 3px 6px rgba(110, 80, 20, .4),
-        inset 0 -2px 5px 1px rgba(139, 66, 8, 1),
-        inset 0 -1px 1px 3px rgba(250, 227, 133, 1);
-    background-image: linear-gradient(160deg, #a54e07, #b47e11, #fef1a2, #bc881b, #a54e07);
-    border: 1px solid #a55d07;
-    color: rgb(120, 50, 5);
-    text-shadow: 0 2px 2px rgba(250, 227, 133, 1);
+    border-radius: 40px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
     cursor: pointer;
-    transition: all .2s ease-in-out;
-    background-size: 100% 100%;
-    background-position: center;
+    transition: all 0.3s ease;
+    margin-top: 470px; // 增加按钮与上方元素的间距 
 } */
 
 .golden-btn:focus,
